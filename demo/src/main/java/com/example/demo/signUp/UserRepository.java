@@ -2,5 +2,5 @@ package com.example.demo.signUp;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository extends CrudRepository<User,Long> {
+public interface UserRepository extends CrudRepository<UserInfo,Long> {
 }
